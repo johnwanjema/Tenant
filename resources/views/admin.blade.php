@@ -21,8 +21,8 @@
 
         <!-- Icons -->
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="assets/media/favicons/favicon.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="assets/media/favicons/favicon-192x192.png">
+        <link rel="shortcut icon" href="/assets/media/favicons/favicon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/media/favicons/favicon-192x192.png">
         <link rel="apple-touch-icon" sizes="180x180" href="assets/media/favicons/apple-touch-icon-180x180.png">
         <!-- END Icons -->
 
@@ -103,7 +103,7 @@
                         <!-- User Info -->
                         <div class="content-header-item">
                             <a class="img-link mr-5" href="be_pages_generic_profile.html">
-                                <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
+                                <img class="img-avatar img-avatar32" src="/assets/media/avatars/avatar15.jpg" alt="">
                             </a>
                             <a class="align-middle link-effect text-primary-dark font-w600" href="be_pages_generic_profile.html">John Smith</a>
                         </div>
@@ -167,28 +167,28 @@
                             <ul class="nav-users push">
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar8.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar8.jpg" alt="">
                                         <i class="fa fa-circle text-success"></i> Andrea Gardner
                                         <div class="font-w400 font-size-xs text-muted">Photographer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar16.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar16.jpg" alt="">
                                         <i class="fa fa-circle text-success"></i> Ryan Flores
                                         <div class="font-w400 font-size-xs text-muted">Web Designer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar8.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar8.jpg" alt="">
                                         <i class="fa fa-circle text-warning"></i> Carol Ray
                                         <div class="font-w400 font-size-xs text-muted">UI Designer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar11.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar11.jpg" alt="">
                                         <i class="fa fa-circle text-danger"></i> Brian Stevens
                                         <div class="font-w400 font-size-xs text-muted">Copywriter</div>
                                     </a>
@@ -438,14 +438,14 @@
                     <div class="content-side content-side-full content-side-user px-10 align-parent">
                         <!-- Visible only in mini mode -->
                         <div class="sidebar-mini-visible-b align-v animated fadeIn">
-                            <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
+                            <img class="img-avatar img-avatar32" src="/assets/media/avatars/avatar15.jpg" alt="">
                         </div>
                         <!-- END Visible only in mini mode -->
 
                         <!-- Visible only in normal mode -->
                         <div class="sidebar-mini-hidden-b text-center">
                             <a class="img-link" href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="assets/media/avatars/avatar15.jpg" alt="">
+                                <img class="img-avatar" src="/assets/media/avatars/avatar15.jpg" alt="">
                             </a>
                             <ul class="list-inline mt-10">
                                 <li class="list-inline-item">
