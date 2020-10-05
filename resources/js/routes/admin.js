@@ -22,7 +22,7 @@ export default [
         name: 'Units',
     },
     {
-        path: '/admin/units',
+        path: '/admin/tenants',
         component: Tenants,
         name: 'Tenants',
     },
