@@ -29,6 +29,16 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 import router from './routes.js';
 
+//v-form
+import { Form, HasError, AlertError } from 'vform'
+window.Form = Form;
+Vue.component(HasError.name, HasError);
+Vue.component(AlertError.name, AlertError);
+
+//bootsrap vue
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+// Install BootstrapVue
+Vue.use(BootstrapVue)
 
 const app = new Vue({   
     el: '#app',

@@ -21,8 +21,8 @@
 
         <!-- Icons -->
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="assets/media/favicons/favicon.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="assets/media/favicons/favicon-192x192.png">
+        <link rel="shortcut icon" href="/assets/media/favicons/favicon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/media/favicons/favicon-192x192.png">
         <link rel="apple-touch-icon" sizes="180x180" href="assets/media/favicons/apple-touch-icon-180x180.png">
         <!-- END Icons -->
 
@@ -103,7 +103,7 @@
                         <!-- User Info -->
                         <div class="content-header-item">
                             <a class="img-link mr-5" href="be_pages_generic_profile.html">
-                                <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
+                                <img class="img-avatar img-avatar32" src="/assets/media/avatars/avatar15.jpg" alt="">
                             </a>
                             <a class="align-middle link-effect text-primary-dark font-w600" href="be_pages_generic_profile.html">John Smith</a>
                         </div>
@@ -167,28 +167,28 @@
                             <ul class="nav-users push">
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar8.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar8.jpg" alt="">
                                         <i class="fa fa-circle text-success"></i> Andrea Gardner
                                         <div class="font-w400 font-size-xs text-muted">Photographer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar16.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar16.jpg" alt="">
                                         <i class="fa fa-circle text-success"></i> Ryan Flores
                                         <div class="font-w400 font-size-xs text-muted">Web Designer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar8.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar8.jpg" alt="">
                                         <i class="fa fa-circle text-warning"></i> Carol Ray
                                         <div class="font-w400 font-size-xs text-muted">UI Designer</div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="be_pages_generic_profile.html">
-                                        <img class="img-avatar" src="assets/media/avatars/avatar11.jpg" alt="">
+                                        <img class="img-avatar" src="/assets/media/avatars/avatar11.jpg" alt="">
                                         <i class="fa fa-circle text-danger"></i> Brian Stevens
                                         <div class="font-w400 font-size-xs text-muted">Copywriter</div>
                                     </a>
@@ -425,7 +425,7 @@
                             <div class="content-header-item">
                                 <a class="link-effect font-w700" href="index.html">
                                     <i class="si si-fire text-primary"></i>
-                                    <span class="font-size-xl text-dual-primary-dark">code</span><span class="font-size-xl text-primary">base</span>
+                                    <span class="font-size-xl text-dual-primary-dark">Tenant</span><span class="font-size-xl text-primary">Managment</span>
                                 </a>
                             </div>
                             <!-- END Logo -->
@@ -438,14 +438,14 @@
                     <div class="content-side content-side-full content-side-user px-10 align-parent">
                         <!-- Visible only in mini mode -->
                         <div class="sidebar-mini-visible-b align-v animated fadeIn">
-                            <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
+                            <img class="img-avatar img-avatar32" src="/assets/media/avatars/avatar15.jpg" alt="">
                         </div>
                         <!-- END Visible only in mini mode -->
 
                         <!-- Visible only in normal mode -->
                         <div class="sidebar-mini-hidden-b text-center">
                             <a class="img-link" href="be_pages_generic_profile.html">
-                                <img class="img-avatar" src="assets/media/avatars/avatar15.jpg" alt="">
+                                <img class="img-avatar" src="/assets/media/avatars/avatar15.jpg" alt="">
                             </a>
                             <ul class="list-inline mt-10">
                                 <li class="list-inline-item">
@@ -472,22 +472,22 @@
                     <div class="content-side content-side-full">
                         <ul class="nav-main">
                             <li>
-                                <a href="/admin"><i class="si si-cup"></i><span class="sidebar-mini-hide">Dashboard</span></a>
+                                <router-link to="/admin"><i class="si si-cup"></i><span class="sidebar-mini-hide">Dashboard</span></router-link>
                             </li>
                             <li>
-                                <a href="/admin/units"><i class="si si-cup"></i><span class="sidebar-mini-hide">Units</span></a>
+                                <router-link to="/admin/units"><i class="si si-cup"></i><span class="sidebar-mini-hide">Units</span></router-link>
                             </li>
                             <li>
-                                <a href="/admin/tenants"><i class="si si-cup"></i><span class="sidebar-mini-hide">Tenants</span></a>
+                                <router-link to="/admin/tenants"><i class="si si-cup"></i><span class="sidebar-mini-hide">Tenants</span></router-link>
                             </li>
                             <li>
-                                <a href="/admin/payments"><i class="si si-cup"></i><span class="sidebar-mini-hide">Payments</span></a>
+                                <router-link to="/admin/payments"><i class="si si-cup"></i><span class="sidebar-mini-hide">Payments</span></router-link>
                             </li>
                             <li>
-                                <a href="/admin/expenses"><i class="si si-cup"></i><span class="sidebar-mini-hide">Expenses</span></a>
+                                <router-link to="/admin/expenses"><i class="si si-cup"></i><span class="sidebar-mini-hide">Expenses</span></router-link>
                             </li>
                             <li>
-                                <a href="/admin/messages"><i class="si si-cup"></i><span class="sidebar-mini-hide">Messages</span></a>
+                                <router-link to="/admin/messages"><i class="si si-cup"></i><span class="sidebar-mini-hide">Messages</span></router-link>
                             </li>
                         </ul>
                     </div>
@@ -617,20 +617,17 @@
                                     <span><i class="si si-envelope-open mr-5"></i> Inbox</span>
                                     <span class="badge badge-primary">3</span>
                                 </a>
-                                <a class="dropdown-item" href="be_pages_generic_invoice.html">
-                                    <i class="si si-note mr-5"></i> Invoices
-                                </a>
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Toggle Side Overlay -->
                                 <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-                                <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
+                                <!-- <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
                                     <i class="si si-wrench mr-5"></i> Settings
-                                </a>
+                                </a> -->
                                 <!-- END Side Overlay -->
 
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="op_auth_signin.html">
+                                <a class="dropdown-item" href="/logout">
                                     <i class="si si-logout mr-5"></i> Sign Out
                                 </a>
                             </div>
@@ -772,11 +769,11 @@
             <!-- Footer -->
             <footer id="page-footer" class="opacity-0" style="opacity: 1;">
                 <div class="content py-20 font-size-sm clearfix">
-                    <div class="float-right">
-                        Crafted with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="https://1.envato.market/ydb" target="_blank">pixelcave</a>
-                    </div>
+                    <!-- <div class="float-right">
+                        Crafted with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="javascript:void(0)" ></a>
+                    </div> -->
                     <div class="float-left">
-                        <a class="font-w600" href="https://1.envato.market/95j" target="_blank">Codebase 3.3</a> © <span class="js-year-copy js-year-copy-enabled">2020</span>
+                        <a class="font-w600" href="https://1.envato.market/95j" target="_blank">Munene 1.1</a> © <span class="js-year-copy js-year-copy-enabled">{{date('Y')}}</span>
                     </div>
                 </div>
             </footer>
