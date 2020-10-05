@@ -472,22 +472,22 @@
                     <div class="content-side content-side-full">
                         <ul class="nav-main">
                             <li>
-                                <router-link to="/admin"><i class="si si-cup"></i><span class="sidebar-mini-hide">Dashboard</span></router-link>
+                                <router-link to="/admin"><i class="fa fa-cogs"></i><span class="sidebar-mini-hide">Dashboard</span></router-link>
                             </li>
                             <li>
-                                <router-link to="/admin/units"><i class="si si-cup"></i><span class="sidebar-mini-hide">Units</span></router-link>
+                                <router-link to="/admin/units"><i class="fa fa-building"></i><span class="sidebar-mini-hide">Units</span></router-link>
                             </li>
                             <li>
-                                <router-link to="/admin/tenants"><i class="si si-cup"></i><span class="sidebar-mini-hide">Tenants</span></router-link>
+                                <router-link to="/admin/tenants"><i class="si si-users"></i><span class="sidebar-mini-hide">Tenants</span></router-link>
                             </li>
                             <li>
-                                <router-link to="/admin/payments"><i class="si si-cup"></i><span class="sidebar-mini-hide">Payments</span></router-link>
+                                <router-link to="/admin/payments"><i class="fa fa-money"></i><span class="sidebar-mini-hide">Payments</span></router-link>
                             </li>
                             <li>
                                 <router-link to="/admin/expenses"><i class="si si-cup"></i><span class="sidebar-mini-hide">Expenses</span></router-link>
                             </li>
                             <li>
-                                <router-link to="/admin/messages"><i class="si si-cup"></i><span class="sidebar-mini-hide">Messages</span></router-link>
+                                <router-link to="/admin/messages"><i class="si si-paper-plane"></i><span class="sidebar-mini-hide">Messages</span></router-link>
                             </li>
                         </ul>
                     </div>
