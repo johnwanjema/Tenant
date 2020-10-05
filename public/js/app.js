@@ -53860,6 +53860,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: '/admin',
+  redirect: '/admin/dashboard'
+}, {
+  path: '/admin/dashboard',
   component: _components_admin_dashboard_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
   name: 'Dashboard'
 }]);
