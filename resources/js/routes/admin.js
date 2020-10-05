@@ -32,7 +32,7 @@ export default [
         name: 'Payments',
     },
     {
-        path: '/admin/payments',
+        path: '/admin/expenses',
         component: Expenses,
         name: 'Expenses',
     },
