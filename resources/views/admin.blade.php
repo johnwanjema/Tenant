@@ -773,7 +773,7 @@
                         Crafted with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="javascript:void(0)" ></a>
                     </div> -->
                     <div class="float-left">
-                        <a class="font-w600" href="https://1.envato.market/95j" target="_blank">Munene 1.1</a> © <span class="js-year-copy js-year-copy-enabled">{{date('Y')}}</span>
+                        <a class="font-w600" href="#">TMS</a> © <span class="js-year-copy js-year-copy-enabled">{{date('Y')}}</span>
                     </div>
                 </div>
             </footer>
@@ -801,16 +801,16 @@
             assets/js/core/jquery.countTo.min.js
             assets/js/core/js.cookie.min.js
         -->
-    <script src="{{asset('assets/js/core/jquery.min.js')}}"></script>
-    <script src="{{asset('assets/js/core/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('assets/js/core/simplebar.min.js')}}"></script>
-    <script src="{{asset('assets/js/core/jquery-scrollLock.min.js')}}"></script>
-    <script src="{{asset('assets/js/core/jquery.appear.min.js')}}"></script>
-    <script src="{{asset('assets/js/core/jquery.countTo.min.js')}}"></script>
-    <script src="{{asset('assets/js/core/js.cookie.min.js')}}"></script>
+    <script src="/assets/js/core/jquery.min.js"></script>
+    <script src="/assets/js/core/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/core/simplebar.min.js"></script>
+    <script src="/assets/js/core/jquery-scrollLock.min.js"></script>
+    <script src="/assets/js/core/jquery.appear.min.js"></script>
+    <script src="/assets/js/core/jquery.countTo.min.js"></script>
+    <script src="/assets/js/core/js.cookie.min.js"></script>
 
     <script src="/js/app.js"></script>
-    <script src="{{asset('assets/js/codebase.core.min.js')}}"></script>
+    <script src="/assets/js/codebase.core.min.js"></script>
 
     <!--
             Codebase JS
@@ -818,13 +818,13 @@
             Custom functionality including Blocks/Layout API as well as other vital and optional helpers
             webpack is putting everything together at assets/_es6/main/app.js
         -->
-    <script src="{{asset('assets/js/codebase.app.min.js')}}"></script>
+    <script src="/assets/js/codebase.app.min.js"></script>
 
     <!-- Page JS Plugins -->
-    <script src="{{asset('assets/js/plugins/chartjs/Chart.bundle.min.js')}}"></script>
-    <script src="{{asset('assets/js/plugins/slick/slick.min.js')}}"></script>
+    <script src="/assets/js/plugins/chartjs/Chart.bundle.min.js"></script>
+    <script src="/assets/js/plugins/slick/slick.min.js"></script>
 
     <!-- Page JS Code -->
-   <!-- <script src="{{asset('assets/js/pages/.min.js')}}"></script>  -->
+   <!-- <script src="{{asset('assets/js/pages/.min.js"></script>  -->
     </body>
 </html>
